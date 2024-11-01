@@ -1,0 +1,404 @@
+.wrap {
+    margin: 10px 20px 0 2px;
+}
+
+h2 {
+    color: #474747;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+h2 span {
+    font-size: 18px;
+}
+
+button.btn {
+    min-width: 102px;
+    border: 1px solid #c6c6c6;
+    color: #494949;
+    height: 28px;
+    padding: 0px 20px;
+    cursor: pointer;
+    background: #ffffff;
+    border-radius: 4px;
+}
+
+input[type="text"].normal {
+    background: #fffeeb;
+    border: 1px solid #e0e0d7;
+    height: 35px;
+    padding: 0px 5px;
+    width: 100%;
+}
+
+
+table {
+    width: 100%;
+}
+
+.big-table {
+    border-collapse: collapse;
+    margin: 0px 0px 20px 0px;
+}
+
+.big-table td {
+    text-align: left;
+    padding: 10px 8px;
+}
+
+.big-table td {
+    background: #fff;
+}
+
+.big-table td.hor-separator, .big-table thead td {
+    background: transparent;
+    height: 10px;
+}
+
+.big-table .center {
+    text-align: center;
+}
+
+.big-table .arrow {
+    background: url("../images/icon-arrow.png") no-repeat 80% center #fff;
+    padding-right: 30px;
+}
+
+.big-table .nowrap {
+    white-space: nowrap;
+}
+
+.big-table tr.opened {
+    border-bottom: none;
+}
+
+.big-table tr, .big-table tr.tr-toggle.opened {
+    border-bottom: 1px solid #f3f3f3;
+}
+
+.big-table tr.opened td {
+    background: #fffeeb;
+}
+
+.big-table .td-big {
+    width: 60%;
+}
+
+.big-table .td-mid {
+    width: 30%;
+}
+
+.big-table .tg-switcher {
+    cursor: pointer;
+}
+
+.big-table .tg-switcher span {
+    color: #2579bf;
+    border-bottom: 1px dashed #2579bf;
+}
+
+.big-table label {
+    display: block;
+    padding: 10px 0px;
+    margin: 0px 50px 0px 0px;
+}
+
+.big-table select {
+    margin: 5px 10px 5px 0px;
+    padding: 2px;
+    min-width: 160px;
+    border: 1px solid #dddddd;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.big-table .tr-toggle {
+    display: none;
+}
+
+.big-table .tr-toggle.opened {
+    display: table-row;
+}
+
+.big-table .toggle-hide {
+    background: url('../images/icon-close.png') no-repeat right center;
+    cursor: pointer;
+    padding: 0px 20px 0px 0px;
+    color: #902914;
+}
+
+.big-table .red {
+	font-size: 80%;
+	color: red;
+}
+
+.big-table .green {
+	font-size: 80%;
+	color: green;
+}
+
+
+
+
+.menutags {
+	display: block;
+	overflow: hidden;
+	margin: 0;
+	font-size: 0.7em;
+}
+
+.menutags__item_green {
+	display: block;
+	float: left;
+	margin: 0.2em 0.4em 0.2em 0;
+	padding: 0.1em 1em;
+	border-radius: 0.8em;
+	border: 1px solid rgba(5, 71, 138, 0.2);
+	color: white;
+	background-color: green;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.menutags__item_blue {
+	display: block;
+	float: left;
+	margin: 0.2em 0.4em 0.2em 0;
+	padding: 0.1em 1em;
+	border-radius: 0.8em;
+	border: 1px solid rgba(5, 71, 138, 0.2);
+	color: white;
+	background-color: blue;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.menutags__item_red {
+	display: block;
+	float: left;
+	margin: 0.2em 0.4em 0.2em 0;
+	padding: 0.1em 1em;
+	border-radius: 0.8em;
+	border: 1px solid rgba(5, 71, 138, 0.2);
+	color: white;
+	background-color: red;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.menutags__item_yellow {
+	display: block;
+	float: left;
+	margin: 0.2em 0.4em 0.2em 0;
+	padding: 0.1em 1em;
+	border-radius: 0.8em;
+	border: 1px solid rgba(5, 71, 138, 0.2);
+	color: black;
+	background-color: yellow;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.menutags__item_black {
+	display: block;
+	float: left;
+	margin: 0.2em 0.4em 0.2em 0;
+	padding: 0.1em 1em;
+	border-radius: 0.8em;
+	border: 1px solid rgba(5, 71, 138, 0.2);
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.menutags__item_ {
+	display: block;
+	float: left;
+	margin: 0.2em 0.4em 0.2em 0;
+	padding: 0.1em 1em;
+	border-radius: 0.8em;
+	border: 1px solid rgba(5, 71, 138, 0.2);
+	color: #1570B1;
+	text-decoration: none;
+	transition: all 0.3s ease;
+}
+
+.menutags__item_green:hover {
+	border: 1px solid transparent;
+	color: #FFF;
+	background-color: #1570B1;
+	text-decoration: none;
+}
+
+.menutags__item_blue:hover {
+	border: 1px solid transparent;
+	color: #FFF;
+	background-color: #1570B1;
+	text-decoration: none;
+}
+
+.menutags__item_red:hover {
+	border: 1px solid transparent;
+	color: #FFF;
+	background-color: #1570B1;
+	text-decoration: none;
+}
+
+.menutags__item_yellow:hover {
+	border: 1px solid transparent;
+	color: #FFF;
+	background-color: #1570B1;
+	text-decoration: none;
+}
+
+.menutags__item_black:hover {
+	border: 1px solid transparent;
+	color: #FFF;
+	background-color: #1570B1;
+	text-decoration: none;
+}
+
+.menutags__item_:hover {
+	border: 1px solid transparent;
+	color: #FFF;
+	background-color: #1570B1;
+	text-decoration: none;
+}
+
+
+
+/* Базовый контейнер табов */
+.zmseo_tabs {
+	min-width: 320px;
+	max-width: 800px;
+	padding: 0px;
+	margin: 0 auto;
+}
+/* Стили секций с содержанием */
+.zmseo_tabs>section {
+	display: none;
+	padding: 15px;
+	background: #fff;
+	border: 1px solid #ddd;
+}
+.zmseo_tabs>section>p {
+	margin: 0 0 5px;
+	line-height: 1.5;
+	color: #383838;
+	/* прикрутим анимацию */
+	-webkit-animation-duration: 1s;
+	animation-duration: 1s;
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+/* Описываем анимацию свойства opacity */
+ 
+@-webkit-keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+	}
+	to {
+		opacity: 1;
+	}
+}
+/* Прячем чекбоксы */
+.zmseo_tabs>input {
+	display: none;
+	position: absolute;
+}
+/* Стили переключателей вкладок (табов) */
+.zmseo_tabs>label {
+	display: inline-block;
+	margin: 0 0 -1px;
+	padding: 15px 25px;
+	font-weight: 600;
+	text-align: center;
+	color: #aaa;
+	border: 0px solid #ddd;
+	border-width: 1px 1px 1px 1px;
+	background: #f1f1f1;
+	border-radius: 3px 3px 0 0;
+}
+
+/* Изменения стиля переключателей вкладок при наведении */
+.zmseo_tabs>label:hover {
+	color: #888;
+	cursor: pointer;
+}
+/* Стили для активной вкладки */
+.zmseo_tabs>input:checked+label {
+	color: #555;
+	border-top: 1px solid #ffbd4a;
+	border-bottom: 1px solid #fff;
+	background: #fff;
+}
+/* Активация секций с помощью псевдокласса :checked */
+#tab1:checked~#content-tab1, #tab2:checked~#content-tab2, #tab3:checked~#content-tab3, #tab4:checked~#content-tab4, #tab5:checked~#content-tab5 {
+	display: block;
+}
+/* Убираем текст с переключателей 
+*/
+ 
+@media screen and (max-width: 680px) {
+	.zmseo_tabs>label {
+		font-size: 0;
+	}
+	.zmseo_tabs>label:before {
+		margin: 0;
+		font-size: 18px;
+	}
+}
+/* Изменяем внутренние отступы 
+*  переключателей для малых экранов
+*/
+@media screen and (max-width: 400px) {
+	.zmseo_tabs>label {
+		padding: 15px;
+	}
+}
+
+
+
+/* 20.02.2019 */
+.components-button.is-button.zm-active{
+	background-color: #0073aa;
+	color:#fff;
+}
+.editor-styles-wrapper mark.zm-annotation-text {
+	background-color: #bee7e1;
+}
+
+.zm-lamp-button {
+	display: inline-block;
+	margin: 0 5px;
+	width: 20px;
+	height: 20px;
+	background: url('../../../../wp-content/plugins/zmseo/images/lamp_on.png') no-repeat center;
+	background-size: cover;
+}
+.zm-lamp-button:hover{
+	cursor: pointer;
+}
+.zm-lamp-button.zm-active{
+	background: url('../../../../wp-content/plugins/zmseo/images/lamp_off.png') no-repeat center;
+	background-size: cover;
+}
+
+/*Для классического редактора чтобы было в цвет нужно запилить стили
+    mark.annotation-text-x {
+	    background-color: #bee7e1;
+    }
+в
+wp-content\themes\twentyseventeen\assets\css\editor-style.css*/
